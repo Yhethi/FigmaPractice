@@ -1,10 +1,12 @@
 import React from "react";
 import { IoMdArrowDropright, IoIosArrowForward } from "react-icons/io";
+import HeroImg from "../../assets/img/HeroImg.png";
+import Rocket from "../../assets/img/rocket.png";
 
 export const Hero = () => {
   return (
     <div className="flex">
-      <div className="ml-[75.55px] h-[500px] mt-[85.05px] flex flex-col w-[470px]">
+      <div className="ml-[75.55px] mt-[85.05px] flex flex-col w-[470px]">
         <h1 className="text-[55.9644px] font-[700] font-['arial']  leading-[67px] text-[#1B2336]">
           The Global <br></br>Thinking
         </h1>
@@ -56,19 +58,13 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="mr-[75.55px] mt-[85.05px] grid place-content-center w-[470px]">
+      <div className="mr-[75.55px] mt-[85.05px] grid place-content-center w-[470px] ">
         <img
           className="object-contain w-[250.77px] h-[265.52px] drop-shadow-[0_0px_30px_rgba(101,207,169,1)]"
-          src="/src/assets/img/HeroImg.png"
+          src={HeroImg}
           alt=""
-          srcset=""
         />
-        <img
-          className="absolute mt-[204.53px]"
-          src="/src/assets/img/rocket.png"
-          alt=""
-          srcset=""
-        />
+        <img className="absolute mt-[204.53px]" src={Rocket} alt="" />
       </div>
     </div>
   );
