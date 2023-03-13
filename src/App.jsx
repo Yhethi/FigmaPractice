@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../public/assets/react.svg";
 import "./App.css";
 import { Header } from "./components/header/Header";
 import { GreenCircle } from "./components/GreenCircle";

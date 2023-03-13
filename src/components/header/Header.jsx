@@ -9,7 +9,7 @@ export const Header = () => {
     <div className="flex pt-[24.87px] w-[100%] justify-around items-center">
       <img
         className="h-[54.72px] right-[560.35px] left-0 pl-[75.55px]"
-        src="/src/assets/img/tgtlogo.png"
+        src="/public/assets/img/tgtlogo.png"
         alt=""
       />
       <Nav text="HOME" />
