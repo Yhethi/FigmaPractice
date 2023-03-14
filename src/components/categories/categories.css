@@ -1,0 +1,42 @@
+.contenedorCategories {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3vw;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cardCategories {
+  position: relative;
+  height: 194px;
+  width: 183px;
+  border-radius: 16.16748046875px;
+  padding: 4% 3%;
+  text-align: center;
+  box-shadow: 0px 2.4873px 51.6116px rgba(101, 207, 169, 0.25);
+  border-radius: 16.1675px;
+}
+
+.contentCategories {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contentCategories img {
+  width: 60.32px;
+  height: 60.32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentCategories h4 {
+  font-size: 14.92px;
+}
+
+.contentCategories p {
+  font-size: 9.33px;
+}

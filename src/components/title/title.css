@@ -1,0 +1,28 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title p {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.70557px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #4b83fb;
+  }
+  
+  .title h3 {
+    width: 70%;
+    text-align: center;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.1167px;
+    line-height: 31px;
+    color: #1b2336;
+    margin-top: -10px;
+  }

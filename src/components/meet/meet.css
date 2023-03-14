@@ -1,0 +1,62 @@
+.contentMeet {
+  width: 100%;
+  padding: 5%;
+  padding-top: 74px;
+  padding-bottom: 74px;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 38.16px;
+}
+.card {
+  width: 142.89px;
+  height: 208.31px;
+  background: #ffffff;
+  box-shadow: 0px 2.4873px 13.6802px rgba(75, 131, 251, 0.2);
+  border-radius: 16.1675px;
+  text-align: center;
+  display: flex;
+  padding: 3% 0%;
+}
+.text1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.4365px;
+  line-height: 21px;
+  color: #1b2336;
+  margin-top: 21.76px;
+}
+.text2 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.32739px;
+  color: #4b83fb;
+  margin-top: -10.76px;
+}
+.card .imagen {
+  text-align: center;
+  /* background: blue; */
+  position: relative;
+}
+
+.instaIcon {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  width: 20px;
+  height: 20px;
+  background: #4b83fb;
+  border-radius: 100%;
+  color: white;
+  padding: 2%;
+}

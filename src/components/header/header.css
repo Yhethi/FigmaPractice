@@ -1,0 +1,92 @@
+/* sm: Aplica a pantallas con dimensiones de 640 px para arriba.
+md: Para pantallas con dimensiones de 768 px en adelante.
+lg: Aplica a pantallas grandes, que comienzan en 1024 px.
+xl: Son para las pantallas muy grandes, que comienzan en 1280 px. 2xl: Este estilo afecta a pantallas de 1536 px y superiores. */
+
+@media (min-width: 992px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo {
+    height: 54.72px;
+    margin-right: 44.77px;
+    margin-top: 20px;
+  }
+  .navText {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8.70557px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1b2336;
+  }
+  .navbar-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -25px;
+    margin-right: -75.55px;
+  }
+  .botonVerde {
+    width: 101.58px;
+    height: 35.56px;
+    font-size: 8.70557px;
+    color: white;
+    background: #65cfa9;
+    box-shadow: 0px 3.10913px 12.4365px rgba(101, 207, 169, 0.5);
+    border-radius: 4.97461px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Global mobile */
+
+@media (max-width: 991px) {
+  .navbar {
+    background: linear-gradient(to left, #ffffff, #beecdb);
+  }
+  .navbar a {
+    color: black;
+    font-weight: 700;
+  }
+  .botonVerde {
+    width: 50%;
+    height: 35.56px;
+    font-size: 15.70557px;
+    margin: 10px;
+    color: white;
+    background: #65cfa9;
+    box-shadow: 0px 3.10913px 12.4365px rgba(101, 207, 169, 0.5);
+    border-radius: 4.97461px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* MOBILE 640px */
+@media (max-width: 724) {
+  .navbar {
+    background: linear-gradient(to left, #ffffff, #beecdb);
+  }
+  .navbar a {
+    color: black;
+    font-weight: 700;
+  }
+}
+
+/* Tablet */

@@ -1,0 +1,108 @@
+.contentVideoTutorials {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  padding-top: 67.38px;
+  /* background: rgba(255, 0, 0, 0.277); */
+}
+.title {
+  /* background: blue; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 38.17px;
+}
+.video .textVideo h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.4365px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.video .textVideo h3 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.32739px;
+  line-height: 17px;
+  color: #dadada;
+}
+
+.contentVideosFlex {
+  /* background: red; */
+}
+.contentVideosFlex img {
+  position: absolute;
+}
+
+.arriba {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.arriba img {
+  width: 100%;
+}
+
+.abajo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18.66px;
+  gap: 18.65px;
+}
+.abajo img {
+  width: 100%;
+}
+.video {
+  width: 100%;
+  height: 200px;
+  background: blue;
+  position: relative;
+  transition-duration: 0.2s;
+}
+
+.video .textVideo {
+  position: absolute;
+  bottom: -10px;
+  /* background: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18.65px;
+  z-index: 1;
+}
+
+.shadowWindow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.47);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.playButton {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  transition-duration: 0.1s;
+  z-index: 1;
+  display: inline-block;
+}
+
+.video:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+.playButton:hover {
+  transition-duration: 0.1s;
+
+  filter: grayscale(1);
+}

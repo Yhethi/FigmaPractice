@@ -1,0 +1,79 @@
+.greenBarContent {
+  width: 100%;
+  height: 250.09px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.greenBarContent img {
+  width: 894.51px;
+  position: absolute;
+  object-fit: contain;
+  z-index: -1;
+}
+.greenBarContent::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.262);
+  z-index: -1;
+  margin-top: 17px;
+  border-radius: 15px;
+  filter: blur(10px);
+}
+.greenBarContent h1 {
+  width: 35%;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.0867px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.btnSubscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 17.83px;
+}
+
+#inpt_subscribe {
+  width: 290.01px;
+  height: 37.55px;
+  background: #4b83fb;
+  border-radius: 7.73035px 0 0 7.73035px;
+  padding: 4% 3%;
+  padding-bottom: 5%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: "Open Sans";
+}
+
+#inpt_subscribe::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.83469px;
+  line-height: 13px;
+  /* identical to box height, or 150% */
+  color: #e2e2e2;
+}
+
+#btn_submit {
+  width: 91.66px;
+  height: 37.55px;
+  background: #ffffff;
+  box-shadow: 0px 3.86518px 11.0434px rgba(141, 40, 173, 0.15);
+  border-radius: 0px 7.73035px 7.73035px 0px;
+  border: none;
+
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 9.93903px;
+  line-height: 13px;
+  color: #11142d;
+}

@@ -1,0 +1,110 @@
+.contentLife {
+  display: flex;
+  width: 100%;
+  /* background: red; */
+  padding: 5%;
+}
+
+.left {
+  width: 55%;
+  display: grid;
+  place-content: center;
+  position: relative;
+  /* padding: 5%; */
+  /* background: blue; */
+}
+.left .img2 {
+}
+.left .img2 {
+  position: absolute;
+  bottom: 7%;
+  right: 0;
+}
+.right {
+  width: 45%;
+  /* background: green; */
+  padding: 2%;
+}
+.contentRight {
+  width: 100%;
+  /* background: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.right .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right .texts h1 {
+  width: 235px;
+  font-size: 26.12px;
+  font-weight: 700;
+  font-family: Raleway;
+}
+.right .texts p {
+  font-family: "Nunito Sans";
+  width: 278.62px;
+  text-align: left;
+  font-size: 9.33px;
+  /* height: 129.96px; */
+}
+.right .texts span {
+  color: #0085ff;
+}
+
+.badges {
+  width: 100%;
+  /* background: grey; */
+}
+.badges h4 {
+  font-size: 12.44px;
+  font-weight: 700;
+}
+.badge {
+  display: flex;
+}
+.badge1 {
+  margin-top: 43.53px;
+}
+.badge img {
+  width: 26.74px;
+  object-fit: contain;
+}
+
+.badge .badgeImg2 {
+  width: 34.2px;
+  object-fit: contain;
+}
+.contentImg {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.badgeText {
+  white-space: normal;
+  width: 100%;
+  text-align: left;
+  display: grid;
+  gap: 3px;
+  padding: 0 2%;
+}
+.badgeText h3 {
+  width: 70%;
+  font-size: 12.44px;
+  font-weight: 700;
+  color: #1b2336;
+}
+
+.badgeText p {
+  width: 75%;
+  font-size: 9.33px;
+  font-weight: 400;
+  line-height: 16.79px;
+  color: #415674;
+}
