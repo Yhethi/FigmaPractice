@@ -1,0 +1,83 @@
+.contentCourse {
+  width: 100%;
+  padding: 5%;
+}
+.contentCourseCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tag {
+  width: 67.31px;
+  height: 17.71px;
+  top: calc(50% - 17.71px / 2 - 6.22px);
+  background: #65cfa9;
+  box-shadow: 0px 3.10913px 12.4365px rgba(101, 207, 169, 0.5);
+  border-radius: 31.0913px;
+  padding: 4.35278px 11.873px 4.35278px 12.4365px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.70557px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: -3px;
+}
+
+.tagPart {
+  padding: 5% 0;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.star {
+  font-size: 12px;
+}
+.cardCourse {
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.cardCourse:hover {
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+.cardCourse h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.9238px;
+  line-height: 19px;
+
+  color: #1b2336;
+}
+.userPart img {
+  object-fit: contain;
+  width: 21.76px;
+  height: 21.76px;
+  margin-right: 9.33px;
+}
+.userPart {
+  padding-top: 5%;
+  display: flex;
+  /* background-color: red; */
+}
+.userPart p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.94922px;
+  line-height: 18px;
+  /* or 180% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1b2336;
+}
+
+.marginLeft {
+  margin-left: 25px;
+}

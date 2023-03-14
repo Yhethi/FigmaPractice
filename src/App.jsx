@@ -10,6 +10,7 @@ import { Meet } from "./components/meet/Meet";
 import { GreenBar } from "./components/greenBar/GreenBar";
 import { VideoTutorials } from "./components/videoTutorials/VideoTutorials";
 import { Peoples } from "./components/peoples/Peoples";
+import { Course } from "./components/courses/Course";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -59,6 +60,7 @@ function App() {
         <GreenBar />
         <VideoTutorials />
         <Peoples />
+        <Course />
       </div>
     </div>
   );
