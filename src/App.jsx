@@ -12,6 +12,7 @@ import { VideoTutorials } from "./components/videoTutorials/VideoTutorials";
 import { Peoples } from "./components/peoples/Peoples";
 import { Course } from "./components/courses/Course";
 import { GreenBar2 } from "./components/greenBar2/GreenBar2";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -63,6 +64,7 @@ function App() {
         <Peoples />
         <Course />
         <GreenBar2 />
+        <Footer />
       </div>
     </div>
   );
