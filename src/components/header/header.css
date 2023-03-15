@@ -54,7 +54,8 @@ xl: Son para las pantallas muy grandes, que comienzan en 1280 px. 2xl: Este esti
 
 @media (max-width: 991px) {
   .navbar {
-    background: linear-gradient(to left, #ffffff, #beecdb);
+    /* background: linear-gradient(to left, #ffffff, #beecdb); */
+    background: transparent;
   }
   .navbar a {
     color: black;
@@ -79,7 +80,7 @@ xl: Son para las pantallas muy grandes, que comienzan en 1280 px. 2xl: Este esti
 }
 
 /* MOBILE 640px */
-@media (max-width: 724) {
+@media (max-width: 724px) {
   .navbar {
     background: linear-gradient(to left, #ffffff, #beecdb);
   }

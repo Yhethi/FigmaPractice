@@ -12,7 +12,13 @@ import { Title } from "../title/Title";
 export const Meet = () => {
   return (
     <div className="contentMeet">
-      <Title text1={"Our Professionals"} text2={"Meet Our Professinoal Colleagues"}/>
+      <div className="circle1_meet"></div>
+      <div className="circle2_meet"></div>
+
+      <Title
+        text1={"Our Professionals"}
+        text2={"Meet Our Professinoal Colleagues"}
+      />
       <div className="contentCards">
         <Cards img={m1} text1={"Dr. Deepndra"} text2={"Advicer"} />
         <Cards img={m2} text1={"Kavi Chaturvedi"} text2={"Channel Manager"} />

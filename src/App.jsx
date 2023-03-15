@@ -22,7 +22,7 @@ function App() {
       <div className="bodyInterno">
         <div className="max-w-[940px] h-full">
           <GreenCircle
-            className="green1"
+            classText="green1"
             mT="-200px"
             mR=""
             mB=""
@@ -30,10 +30,11 @@ function App() {
             blur="blur(90px)"
             ancho="400px"
             alto="400px"
-            color="#65CFA9"
+            color="#4B83FBCC"
           />
           {/* bg-gradient-to-t from-[#65CFA9] to-[#FFFFFF99] */}
           <GreenCircle
+            classText="green2"
             mT="123.99px"
             mR=""
             mB=""
@@ -43,6 +44,7 @@ function App() {
             color="#65CFA9"
           />
           <GreenCircle
+            classText="green3"
             mT="88.54px"
             mR=""
             mB=""

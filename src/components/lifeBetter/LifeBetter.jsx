@@ -4,10 +4,14 @@ import l1 from "../../assets/img/lifeBetter/lifeBetter1.png";
 import l2 from "../../assets/img/lifeBetter/lifeBetter2.png";
 import b1 from "../../assets/img/lifeBetter/badge1.png";
 import b2 from "../../assets/img/lifeBetter/badge2.png";
+import { GreenCircle } from "../GreenCircle";
 
 export const LifeBetter = () => {
   return (
     <div className="contentLife">
+      <div className="circle1"></div>
+      <div className="circle2"></div>
+
       <div className="left">
         <img className="img1" src={l1} alt={l1} srcset={l1} />
         <img className="img2" src={l2} alt={l2} srcset={l2} />

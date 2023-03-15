@@ -9,3 +9,14 @@
   padding: 10%;
   padding-top: 40px;
 }
+.cardBanner {
+  transition-duration: 0.2s;
+  cursor: pointer;
+  /* border: 1px solid rgba(255, 255, 255, 0.149); */
+}
+.cardBanner:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+  /* border: 1px solid rgba(128, 128, 128, 0.393); */
+  /* border-radius: 5px; */
+}
