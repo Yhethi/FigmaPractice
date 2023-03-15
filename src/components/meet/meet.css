@@ -2,12 +2,15 @@
   width: 100%;
   padding: 5%;
   padding-top: 74px;
-  padding-bottom: 74px;
+  padding-bottom: 174px;
+  margin-bottom: -120px;
   /* background: red; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
 .contentCards {
@@ -25,6 +28,12 @@
   text-align: center;
   display: flex;
   padding: 3% 0%;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
 }
 .text1 {
   font-family: "Raleway";
@@ -59,4 +68,28 @@
   border-radius: 100%;
   color: white;
   padding: 2%;
+}
+
+.circle1_meet {
+  width: 400px;
+  height: 400px;
+  background: #4b83fbcc;
+  position: absolute;
+  border-radius: 100%;
+  right: -300px;
+  bottom: -150px;
+  filter: blur(90px);
+  z-index: -10;
+}
+
+.circle2_meet {
+  width: 400px;
+  height: 400px;
+  background: #4b83fbcc;
+  position: absolute;
+  border-radius: 100%;
+  top: -100px;
+  left: -300px;
+  filter: blur(90px);
+  z-index: -10;
 }

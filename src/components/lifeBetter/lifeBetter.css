@@ -3,6 +3,8 @@
   width: 100%;
   /* background: red; */
   padding: 5%;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .left {
@@ -110,4 +112,28 @@
   font-weight: 400;
   line-height: 16.79px;
   color: #415674;
+}
+
+.circle1 {
+  width: 400px;
+  height: 400px;
+  background: #4b83fbcc;
+  position: absolute;
+  border-radius: 100%;
+  right: -300px;
+  margin-top: -150px;
+  filter: blur(90px);
+  z-index: -10;
+}
+
+.circle2 {
+  width: 400px;
+  height: 400px;
+  background: #4b83fbcc;
+  position: absolute;
+  border-radius: 100%;
+  left: -300px;
+  bottom: -100px;
+  filter: blur(90px);
+  z-index: -10;
 }
