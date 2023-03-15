@@ -1,9 +1,13 @@
+/* 1000 full
+767 tablet
+475 phone o 535*/
+
 .imgHero {
   filter: drop-shadow(0px 0px 50px rgba(101, 207, 169, 1));
 }
 
 /* global mobile */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .hero {
     display: flex;
     width: 100%;
@@ -99,7 +103,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .botonesHero {
     display: flex;
     align-items: center;
@@ -186,5 +190,5 @@
     left: 0;
   }
 }
-@media (max-width: 724px) {
+@media (max-width: 535px) {
 }
