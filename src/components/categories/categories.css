@@ -20,6 +20,7 @@
   border-radius: 16.1675px;
   transition-duration: 0.3s;
   background: rgba(255, 255, 255, 0.884);
+  cursor: pointer;
 }
 .cardCategories:hover {
   transform: scale(1.05);
