@@ -12,8 +12,8 @@ xl: Son para las pantallas muy grandes, que comienzan en 1280 px. 2xl: Este esti
 
 .logo {
   height: 54.72px;
-  margin-right: 44.77px;
-  margin-top: 20px;
+  margin-right: 64.77px;
+  transform: translateY(5px);
 }
 .navText {
   font-family: "Nunito Sans";
