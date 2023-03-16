@@ -7,104 +7,103 @@
 }
 
 /* global mobile */
-@media (min-width: 768px) {
-  .hero {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .botonesHero {
-    display: flex;
-    align-items: center;
-    gap: 2%;
-    width: 100%;
-    /* background: purple; */
-    justify-content: center;
-  }
-  .bookConsultation {
-    width: 164.95px;
-    height: 35.56px;
-    margin-top: 9.95px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 8.71px;
-    line-height: 16px;
-    background: #4b83fb;
-    box-shadow: 0px 3.10913px 12.4365px rgba(75, 131, 251, 0.5);
-    border-radius: 31.0913px;
-    color: white;
-    border: none;
-  }
-  .botonWatchVideo {
-    display: flex;
-    padding-top: 1px;
-    align-items: center;
-    width: 115.16px;
-    height: 33.01px;
-    color: black;
-    background: transparent;
-    border-radius: 31.0913px;
-    padding-left: 5px;
-    margin-top: 9.95px;
-    border: 1px solid black;
-  }
-  .internoWatch {
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-  .textWatch {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    font-size: 6.79549px;
-    margin-left: 0px;
-  }
 
-  .textHero {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    /* background: blue; */
-    padding: 75.55px 75.55px;
-  }
-  .descriptionHero {
-    font-size: 11.19px;
-    color: #415674;
-    font-size: 11.1929px;
-    white-space: nowrap;
-  }
-  .titleHero {
-    width: 1000%;
-    font-size: 55.96px;
-    font-weight: 700;
-  }
-  .rightHero {
-    width: 50%;
-    height: 100%;
-    padding: 2vh 2vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-  .imgHero {
-    width: 248px;
-  }
-  .imgRocket {
-    position: absolute;
-    left: 40px;
-    bottom: -20px;
-  }
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.botonesHero {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  width: 100%;
+  /* background: purple; */
+  justify-content: center;
+}
+.bookConsultation {
+  width: 164.95px;
+  height: 35.56px;
+  margin-top: 9.95px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.71px;
+  line-height: 16px;
+  background: #4b83fb;
+  box-shadow: 0px 3.10913px 12.4365px rgba(75, 131, 251, 0.5);
+  border-radius: 31.0913px;
+  color: white;
+  border: none;
+}
+.botonWatchVideo {
+  display: flex;
+  padding-top: 1px;
+  align-items: center;
+  width: 115.16px;
+  height: 33.01px;
+  color: black;
+  background: transparent;
+  border-radius: 31.0913px;
+  padding-left: 5px;
+  margin-top: 9.95px;
+  border: 1px solid black;
+}
+.internoWatch {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.textWatch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 6.79549px;
+  margin-left: 0px;
+}
+
+.textHero {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  /* background: blue; */
+  padding: 75.55px 75.55px;
+}
+.descriptionHero {
+  font-size: 11.19px;
+  color: #415674;
+  font-size: 11.1929px;
+  white-space: nowrap;
+}
+.titleHero {
+  width: 1000%;
+  font-size: 55.96px;
+  font-weight: 700;
+}
+.rightHero {
+  width: 50%;
+  height: 100%;
+  padding: 2vh 2vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.imgHero {
+  width: 248px;
+}
+.imgRocket {
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
 }
 
 @media (max-width: 767px) {
-  .botonesHero {
+  /* .botonesHero {
     display: flex;
     align-items: center;
     gap: 2%;
@@ -146,7 +145,6 @@
     height: 100%;
     display: grid;
     place-content: center;
-    /* background: blue; */
     margin-left: -35px;
     font-weight: 700;
     font-size: 9.70557px;
@@ -188,7 +186,7 @@
     bottom: 0;
     width: 30%;
     left: 0;
-  }
+  } */
 }
 @media (max-width: 535px) {
 }
