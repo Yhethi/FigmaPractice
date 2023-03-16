@@ -57,13 +57,6 @@
 .abajo img {
   width: 100%;
 }
-.video {
-  width: 100%;
-  height: 200px;
-  background: blue;
-  position: relative;
-  transition-duration: 0.2s;
-}
 
 .video .textVideo {
   position: absolute;
@@ -96,9 +89,17 @@
   display: inline-block;
 }
 
+.video {
+  width: 100%;
+  height: 200px;
+  background: blue;
+  position: relative;
+  transition-duration: 0.3s;
+}
+
 .video:hover {
   transform: scale(1.05);
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
 }
 
 .playButton:hover {
